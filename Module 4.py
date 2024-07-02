@@ -25,6 +25,6 @@ print('TOTAL COST')
 total_cost = 0 
 for item in items:
     total_cost += item.print_item_cost()
-    print(f'Total: ${total_cost}')
+print(f'Total: ${total_cost}')
 
 
